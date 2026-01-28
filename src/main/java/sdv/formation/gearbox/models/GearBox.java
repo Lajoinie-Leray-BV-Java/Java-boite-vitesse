@@ -40,6 +40,11 @@ public class GearBox {
         }
     }
 
+    /**
+     * Change le rapport de la boite de vitesse en fonction de l'enum passé en paramètre
+      * @param gear Le rapport souhaité
+     * @throws GearException Si le passage au rapport demandé est impossible
+     */
     public void queryToGearByName(GearsEnum gear) throws GearException {
         switch (gear) {
             case GearsEnum.GR -> queryGR();

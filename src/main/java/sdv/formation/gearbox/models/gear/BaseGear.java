@@ -1,10 +1,7 @@
 package sdv.formation.gearbox.models.gear;
 
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
+import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.Getter;
@@ -16,6 +13,8 @@ import sdv.formation.gearbox.enums.GearsEnum;
 @Entity
 @Data
 @NoArgsConstructor
+@Inheritance(strategy = InheritanceType.SINGLE_TABLE)
+@DiscriminatorColumn(name = "gear_type")
 public class BaseGear {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)

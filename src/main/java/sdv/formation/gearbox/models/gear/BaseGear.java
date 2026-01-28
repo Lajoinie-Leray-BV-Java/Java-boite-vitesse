@@ -10,6 +10,7 @@ import lombok.Data;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import sdv.formation.gearbox.common.GearException;
+import sdv.formation.gearbox.enums.GearsEnum;
 
 @Getter
 @Entity

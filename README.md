@@ -145,7 +145,8 @@ Toute transition non listée sera rejetée avec une erreur **400 Bad Request**.
 
 ## 5. Tests de l'application
 
-### Stratégie de tests recommandée
+### Stratégie de tests
+*(Si nous devions en mettre en place)*
 
 **Tests unitaires du service (`GearBoxService`)**
 - Création d'une boîte avec vitesse par défaut (GN)

@@ -166,4 +166,4 @@ Toute transition non listée sera rejetée avec une erreur **400 Bad Request**.
 ## Auteur
 
 Projet réalisé dans le cadre du M1 DEV-A 2025-2026 à Sup de Vinci Bordeaux.
-Elie Lajoinie & Thibault LERAY
+>> Elie LAJOINIE & Thibault LERAY
